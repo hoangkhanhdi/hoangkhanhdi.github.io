@@ -1,2 +1,8 @@
+title: My GitHub Page
+description: "This is my awesome GitHub Pages site."
 theme: minima
-gem "github-pages", group: :jekyll_plugins
+url: "https://your-github-username.github.io"
+baseurl: "" # Nếu bạn sử dụng user/repo thì không cần baseurl
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
